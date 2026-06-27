@@ -453,15 +453,15 @@ color:#cfcfcf;
 
 .projects-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    grid-template-columns:repeat(3,1fr);
     gap:30px;
 }
 
 .project-card{
-    overflow:hidden;
+    background:#1c1c1c;
     border-radius:18px;
-    background:#1b1b1b;
-    transition:.35s;
+    overflow:hidden;
+    transition:.3s;
 }
 
 .project-card img{
@@ -480,10 +480,6 @@ color:#cfcfcf;
     margin-bottom:10px;
 }
 
-.project-info p{
-    color:#ccc;
-}
-
 .project-card:hover{
-    transform:translateY(-10px);
+    transform:translateY(-8px);
 }
