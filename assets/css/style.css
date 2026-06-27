@@ -439,3 +439,51 @@ color:#cfcfcf;
     color:#ddd;
     line-height:28px;
 }
+
+.projects{
+    padding:120px 8%;
+    background:#101010;
+}
+
+.projects h2{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:60px;
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    overflow:hidden;
+    border-radius:18px;
+    background:#1b1b1b;
+    transition:.35s;
+}
+
+.project-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+}
+
+.project-info{
+    padding:25px;
+}
+
+.project-info h3{
+    color:#C89B3C;
+    margin-bottom:10px;
+}
+
+.project-info p{
+    color:#ccc;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+}
