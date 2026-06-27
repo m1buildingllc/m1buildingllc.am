@@ -810,3 +810,50 @@ color:#cfcfcf;
 .testimonial-card span{
     color:#aaa;
 }
+
+.faq{
+    padding:120px 8%;
+    background:#111;
+}
+
+.faq h2{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:60px;
+}
+
+.faq-item{
+    max-width:900px;
+    margin:0 auto 20px;
+    border:1px solid #333;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.faq-question{
+    width:100%;
+    background:#1c1c1c;
+    color:#fff;
+    border:none;
+    padding:22px;
+    text-align:left;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.faq-question:hover{
+    background:#C89B3C;
+}
+
+.faq-answer{
+    display:none;
+    background:#222;
+    padding:22px;
+    color:#ddd;
+    line-height:30px;
+}
+
+.faq-item.active .faq-answer{
+    display:block;
+}
