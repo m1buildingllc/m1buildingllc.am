@@ -1,3 +1,12 @@
+/* =====================================================
+   M1 BUILDING LLC
+   Optimized stylesheet (cleaned formatting)
+   NOTE:
+   - Preserves your current design.
+   - Next optimization step: merge duplicate .hero/.services
+     rules and consolidate media queries.
+   ===================================================== */
+
 *{
 
 margin:0;
@@ -335,7 +344,6 @@ transition:.3s;
 
 }
 
-
 .services{
     padding:120px 8%;
     background:#111;
@@ -354,6 +362,13 @@ display:grid;
 grid-template-columns:repeat(3,1fr);
 
 gap:30px;
+
+}
+@media(max-width:900px){
+
+    .services-grid{
+        grid-template-columns:1fr;
+    }
 
 }
 
@@ -483,7 +498,6 @@ color:#cfcfcf;
     transform:translateY(-8px);
 }
 
-
 .contact{
     padding:120px 8%;
     background:#181818;
@@ -554,8 +568,6 @@ color:#cfcfcf;
 
 @media(max-width:900px){
 
-    
-
 .contact-container{
     grid-template-columns:1fr;
 }
@@ -625,7 +637,6 @@ color:#cfcfcf;
 }
 
 }
-
 
 .about{
     padding:120px 8%;
@@ -723,7 +734,6 @@ color:#cfcfcf;
     transform:translateY(-4px);
     box-shadow:0 15px 35px rgba(200,155,60,.35);
 }
-
 
 .gallery{
     padding:120px 8%;
