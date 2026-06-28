@@ -1201,17 +1201,42 @@ html{
     bottom: 20px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
     z-index: 999;
 }
 
 .floating-buttons a{
     width: 64px;
     height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all .35s ease;
 }
 
 .floating-buttons img{
     width: 64px;
     height: 64px;
     display: block;
+    border-radius: 50%;
+    transition: all .35s ease;
+}
+
+/* Premium Hover */
+
+.floating-buttons a:hover{
+    transform: translateX(-10px) scale(1.08);
+}
+
+.floating-buttons a:hover img{
+    transform: rotate(8deg);
+    filter:
+        brightness(1.08)
+        drop-shadow(0 0 8px rgba(212,175,55,.7))
+        drop-shadow(0 0 18px rgba(212,175,55,.45));
+}
+
+.floating-buttons a:active{
+    transform: translateX(-10px) scale(.95);
 }
