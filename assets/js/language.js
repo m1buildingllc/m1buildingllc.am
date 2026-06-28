@@ -2,6 +2,19 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+        document.getElementById("aboutSubtitle").innerHTML = "ABOUT US";
+
+document.getElementById("aboutTitle").innerHTML =
+"Building Quality.<br>Creating Value.";
+
+document.getElementById("aboutText").innerHTML =
+"M1 BUILDING LLC provides professional construction, asphalt paving, landscaping and infrastructure services across Armenia. We combine quality workmanship, modern equipment and experienced specialists to deliver reliable results for every project.";
+
+document.getElementById("stat1").innerHTML = "Completed Projects";
+document.getElementById("stat2").innerHTML = "Satisfied Clients";
+document.getElementById("stat3").innerHTML = "Years Experience";
+document.getElementById("stat4").innerHTML = "Quality Guarantee";
+
         document.getElementById("projectsTitle").innerHTML = "Our Latest Projects";
 
 document.getElementById("project1Title").innerHTML = "Asphalt Paving";
@@ -41,6 +54,19 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("aboutSubtitle").innerHTML = "ՄԵՐ ՄԱՍԻՆ";
+
+document.getElementById("aboutTitle").innerHTML =
+"Կառուցում ենք որակ.<br>Ստեղծում արժեք։";
+
+document.getElementById("aboutText").innerHTML =
+"M1 BUILDING LLC-ն իրականացնում է շինարարական, ասֆալտապատման, բարեկարգման և ենթակառուցվածքային աշխատանքներ Հայաստանի ողջ տարածքում։ Մենք համատեղում ենք որակյալ աշխատանքը, ժամանակակից տեխնիկան և փորձառու մասնագետներին՝ յուրաքանչյուր նախագծում ապահովելով բարձր արդյունք։";
+
+document.getElementById("stat1").innerHTML = "Իրականացված նախագծեր";
+document.getElementById("stat2").innerHTML = "Գոհ հաճախորդներ";
+document.getElementById("stat3").innerHTML = "Տարվա փորձ";
+document.getElementById("stat4").innerHTML = "Որակի երաշխիք";
+
         document.getElementById("projectsTitle").innerHTML = "Մեր իրականացրած նախագծերը";
 
 document.getElementById("project1Title").innerHTML = "Ասֆալտապատման աշխատանքներ";
@@ -79,6 +105,19 @@ document.getElementById("navContact").innerHTML = "Կապ";
     }
 
     if(lang === "ru"){
+
+        document.getElementById("aboutSubtitle").innerHTML = "О НАС";
+
+document.getElementById("aboutTitle").innerHTML =
+"Строим качество.<br>Создаем ценность.";
+
+document.getElementById("aboutText").innerHTML =
+"M1 BUILDING LLC выполняет строительные, асфальтобетонные, ландшафтные и инфраструктурные работы по всей Армении. Мы объединяем качественное исполнение, современную технику и опытных специалистов для достижения надежных результатов.";
+
+document.getElementById("stat1").innerHTML = "Завершенных проектов";
+document.getElementById("stat2").innerHTML = "Довольных клиентов";
+document.getElementById("stat3").innerHTML = "Лет опыта";
+document.getElementById("stat4").innerHTML = "Гарантия качества";
 
         document.getElementById("projectsTitle").innerHTML = "Наши проекты";
 
