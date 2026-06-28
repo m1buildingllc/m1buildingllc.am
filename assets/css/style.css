@@ -1051,3 +1051,16 @@ nav{
     }
 
 }
+
+nav a.active{
+    color:#C89B3C;
+}
+
+nav a.active::after{
+    content:"";
+    display:block;
+    width:100%;
+    height:2px;
+    background:#C89B3C;
+    margin-top:6px;
+}
