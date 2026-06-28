@@ -85,3 +85,55 @@ function revealSections() {
 
 window.addEventListener("scroll", revealSections);
 revealSections();
+
+const counters = document.querySelectorAll(".counter");
+
+const animateCounters = () => {
+
+    counters.forEach(counter => {
+
+        const target = +counter.dataset.target;
+        let count = 0;
+
+        const update = () => {
+
+            const increment = Math.ceil(target / 80);
+
+            count += increment;
+
+            if (count >= target) {
+                count = target;
+            }
+
+            if (target === 100) {
+                counter.innerHTML = count + "%";
+            } else {
+                counter.innerHTML = count + "+";
+            }
+
+            if (count < target) {
+                requestAnimationFrame(update);
+            }
+
+        };
+
+        update();
+
+    });
+
+};
+
+const aboutSection = document.querySelector(".about");
+
+const observer = new IntersectionObserver(entries => {
+
+    if (entries[0].isIntersecting) {
+
+        animateCounters();
+        observer.disconnect();
+
+    }
+
+});
+
+observer.observe(aboutSection);
