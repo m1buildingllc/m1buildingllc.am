@@ -888,6 +888,39 @@ color:#cfcfcf;
 
 @media (max-width:900px){
 
+    .hero{
+    height:85vh;
+    padding:0 25px;
+}
+
+.hero-content{
+    margin:0;
+    max-width:100%;
+    text-align:left;
+}
+
+.hero h1{
+    font-size:48px;
+    line-height:1.15;
+}
+
+.hero p{
+    font-size:17px;
+    line-height:28px;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    gap:15px;
+}
+
+.primary-btn,
+.secondary-btn{
+    width:100%;
+    text-align:center;
+}
+
     header{
         padding:15px 20px;
     }
