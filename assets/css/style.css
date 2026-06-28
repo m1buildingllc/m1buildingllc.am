@@ -1308,3 +1308,8 @@ html{
 .toast.error{
     border-left-color:#dc3545;
 }
+
+html[lang="hy"] .hero h1{
+    font-size: 65px;
+    line-height: 1.15;
+}
