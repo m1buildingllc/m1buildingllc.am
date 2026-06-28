@@ -154,6 +154,13 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
+        document.getElementById("ctaBtn").innerHTML =
+"Ստանալ անվճար առաջարկ";
+        document.getElementById("ctaText").innerHTML =
+"Կապվեք M1 BUILDING LLC-ի հետ այսօր և ստացեք անվճար խորհրդատվություն ձեր հաջորդ շինարարական նախագծի համար։";
+        document.getElementById("ctaTitle").innerHTML =
+"Պատրա՞ստ եք սկսել ձեր նախագիծը։";
+
         document.getElementById("whyText1").innerHTML =
 "Մենք օգտագործում ենք բարձրորակ և դիմացկուն նյութեր յուրաքանչյուր նախագծի համար։";
 
@@ -304,6 +311,13 @@ document.getElementById("navContact").innerHTML = "Կապ";
 
     if(lang === "ru"){
 
+        document.getElementById("ctaBtn").innerHTML =
+"Получить бесплатное предложение";
+        document.getElementById("ctaText").innerHTML =
+"Свяжитесь с M1 BUILDING LLC уже сегодня и получите бесплатную консультацию по вашему следующему строительному проекту.";
+        
+        document.getElementById("ctaTitle").innerHTML =
+"Готовы начать свой проект?";
         document.getElementById("whyText1").innerHTML =
 "Мы используем качественные и долговечные материалы для каждого проекта.";
 
