@@ -1,12 +1,28 @@
-const menuToggle = document.getElementById("menuToggle");
-const nav = document.getElementById("mainMenu");
+const menu = document.getElementById("mainMenu");
+const toggle = document.getElementById("menuToggle");
+const overlay = document.getElementById("menuOverlay");
 
-menuToggle.addEventListener("click", () => {
-    nav.classList.toggle("active");
+toggle.addEventListener("click",()=>{
+
+menu.classList.toggle("active");
+overlay.classList.toggle("active");
+
 });
 
-document.querySelectorAll("#mainMenu a").forEach(link => {
-    link.addEventListener("click", () => {
-        nav.classList.remove("active");
-    });
+overlay.addEventListener("click",()=>{
+
+menu.classList.remove("active");
+overlay.classList.remove("active");
+
+});
+
+document.querySelectorAll("#mainMenu a").forEach(link=>{
+
+link.addEventListener("click",()=>{
+
+menu.classList.remove("active");
+overlay.classList.remove("active");
+
+});
+
 });
