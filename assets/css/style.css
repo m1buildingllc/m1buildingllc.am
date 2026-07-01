@@ -1293,4 +1293,132 @@ html[lang="hy"] .hero h1{
     line-height: 1.15;
 }
 
+/*==========================
+ WEBSITE PROMO
+==========================*/
 
+.website-promo{
+
+padding:90px 20px;
+
+background:#111;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.promo-container{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+}
+
+.promo-badge{
+
+display:inline-block;
+
+padding:8px 18px;
+
+background:#D4AF37;
+
+color:#111;
+
+font-weight:700;
+
+border-radius:50px;
+
+margin-bottom:25px;
+
+font-size:14px;
+
+letter-spacing:2px;
+
+}
+
+.website-promo h2{
+
+font-size:46px;
+
+color:#fff;
+
+margin-bottom:25px;
+
+}
+
+.website-promo p{
+
+font-size:20px;
+
+line-height:34px;
+
+color:#ccc;
+
+max-width:720px;
+
+margin:auto auto 40px;
+
+}
+
+.promo-features{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:18px;
+
+margin-bottom:45px;
+
+}
+
+.promo-features span{
+
+padding:12px 22px;
+
+background:#1d1d1d;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:50px;
+
+font-size:15px;
+
+color:#fff;
+
+}
+
+.promo-btn{
+
+display:inline-block;
+
+padding:18px 42px;
+
+background:#D4AF37;
+
+color:#111;
+
+font-weight:700;
+
+font-size:18px;
+
+text-decoration:none;
+
+border-radius:12px;
+
+transition:.35s;
+
+}
+
+.promo-btn:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 18px 35px rgba(212,175,55,.35);
+
+}
