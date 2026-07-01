@@ -1,73 +1,57 @@
+/* ======================================
+   MOBILE LANGUAGE SWITCHER
+====================================== */
+
 @media (max-width:768px){
 
-.hero{
-    padding-top: 0px;
+header{
+    display:none;
 }
 
-.hero-content{
-    margin-top: 0;
-}
+.mobile-language-switcher{
 
-  header{
-    background: rgba(15,15,15,.25);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    position:fixed;
 
-    border: none;
-    box-shadow: none;
-}
-}
+    top:18px;
 
-.website-promo{
+    right:18px;
 
-padding:70px 20px;
+    z-index:99999;
 
-}
+    display:flex;
 
-.website-promo h2{
+    align-items:center;
 
-font-size:34px;
+    gap:8px;
 
-line-height:1.3;
+    font-size:15px;
+
+    font-weight:600;
 
 }
 
-.website-promo p{
+.mobile-language-switcher button{
 
-font-size:17px;
+    background:none;
 
-line-height:30px;
+    border:none;
 
-}
+    color:#fff;
 
-.promo-features{
+    cursor:pointer;
 
-flex-direction:column;
+    font-size:15px;
 
-align-items:center;
+    font-weight:600;
 
-gap:12px;
-
-}
-
-.promo-features span{
-
-width:100%;
-
-max-width:320px;
-
-text-align:center;
+    padding:0;
 
 }
 
-.promo-btn{
+.mobile-language-switcher span{
 
-width:100%;
+    color:#D4AF37;
 
-max-width:320px;
-
-padding:18px;
-
-font-size:18px;
+}
 
 }
