@@ -1453,3 +1453,8 @@ html[lang="ru"]{
     font-size:94%;
 
 }
+
+/* Mobile language switcher */
+.mobile-language-switcher{
+    display:none;
+}
