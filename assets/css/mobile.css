@@ -17,3 +17,57 @@
     box-shadow: none;
 }
 }
+
+.website-promo{
+
+padding:70px 20px;
+
+}
+
+.website-promo h2{
+
+font-size:34px;
+
+line-height:1.3;
+
+}
+
+.website-promo p{
+
+font-size:17px;
+
+line-height:30px;
+
+}
+
+.promo-features{
+
+flex-direction:column;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+.promo-features span{
+
+width:100%;
+
+max-width:320px;
+
+text-align:center;
+
+}
+
+.promo-btn{
+
+width:100%;
+
+max-width:320px;
+
+padding:18px;
+
+font-size:18px;
+
+}
