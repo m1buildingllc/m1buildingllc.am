@@ -1438,4 +1438,8 @@ html[lang="hy"] .hero h1{
 
 }
 
+/* Desktop-ում թաքցնել mobile language switcher */
 
+.mobile-language-switcher{
+    display:none;
+}
