@@ -4,6 +4,8 @@ function setLanguage(lang){
 
     if(lang === "en"){
 
+document.getElementById("serviceHouseTitle").innerHTML = "🏡 Turnkey House Construction";
+document.getElementById("serviceHouseText").innerHTML = "We provide complete turnkey house construction services, from design and foundation works to finishing and final handover. We ensure premium quality, modern construction standards and on-time project delivery.";
 document.getElementById("promoTitle").innerHTML = "A Premium Website for Your Business";
 document.getElementById("promoText").innerHTML = "We create modern, fast and SEO-optimized websites that help your business build trust, attract more customers and grow online.";
 document.getElementById("promo1").innerHTML = "✔ Premium Design";
@@ -165,7 +167,10 @@ document.getElementById("navContact").innerHTML = "Contact";
 
     if(lang === "hy"){
 
-     
+
+document.getElementById("serviceHouseTitle").innerHTML = "🏡 Առանձնատների կառուցում՝ «բանալիով»";
+document.getElementById("serviceHouseText").innerHTML = "Մենք իրականացնում ենք առանձնատների ամբողջական կառուցում՝ նախագծումից և հիմքի աշխատանքներից մինչև վերջնական հարդարում և շահագործման հանձնում։ Ապահովում ենք բարձր որակ, ժամանակակից շինարարական չափանիշներ և աշխատանքների իրականացում սահմանված ժամկետներում։";
+
 document.getElementById("promoTitle").innerHTML = "Պրեմիում կայք՝ ձեր բիզնեսի համար";
 document.getElementById("promoText").innerHTML = "Մենք ստեղծում ենք ժամանակակից, արագ և SEO-ով օպտիմիզացված կայքեր, որոնք օգնում են ձեր բիզնեսին վստահություն ներշնչել, նոր հաճախորդներ ներգրավել և հաջողությամբ զարգանալ առցանց։";
 document.getElementById("promo1").innerHTML = "✔ Պրեմիում դիզայն";
@@ -333,7 +338,10 @@ document.getElementById("navContact").innerHTML = "Կապ";
 
     if(lang === "ru"){
 
-         
+document.getElementById("serviceHouseTitle").innerHTML = "🏡 Строительство частных домов под ключ";
+document.getElementById("serviceHouseText").innerHTML = "Мы выполняем строительство частных домов под ключ — от проектирования и устройства фундамента до внутренней отделки и полной сдачи объекта. Гарантируем высокое качество, современные строительные стандарты и выполнение работ в установленные сроки.";
+
+        
 document.getElementById("promoTitle").innerHTML = "Премиальный сайт для вашего бизнеса";
 document.getElementById("promoText").innerHTML = "Мы создаем современные, быстрые и SEO-оптимизированные сайты, которые помогают вашему бизнесу завоевывать доверие, привлекать новых клиентов и успешно развиваться в интернете.";
 document.getElementById("promo1").innerHTML = "✔ Премиальный дизайн";
