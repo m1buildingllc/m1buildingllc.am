@@ -188,19 +188,21 @@ const backToTop = document.getElementById("backToTop");
 
 if (backToTop) {
 
-    window.addEventListener("scroll", () => {
+    function toggleBackToTop() {
 
         if (window.scrollY > 400) {
-
             backToTop.style.display = "flex";
-
         } else {
-
             backToTop.style.display = "none";
-
         }
 
-    });
+    }
+
+    // Ստուգել անմիջապես էջը բացվելիս
+    toggleBackToTop();
+
+    // Ստուգել նաև scroll-ի ժամանակ
+    window.addEventListener("scroll", toggleBackToTop);
 
     backToTop.addEventListener("click", () => {
 
