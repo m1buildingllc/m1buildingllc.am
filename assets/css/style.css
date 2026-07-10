@@ -102,23 +102,35 @@ box-shadow:0 10px 25px rgba(200,155,60,.35);
 }
 
 .hero{
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+}
 
-height:100vh;
+.hero-slide{
+    position:absolute;
+    inset:0;
+    background-size:cover;
+    background-position:center;
+    opacity:0;
+    transition:opacity 1.5s ease;
+}
 
-background: url("../images/hero2.jpg") center/cover no-repeat;
+.hero-slide.active{
+    opacity:1;
+    z-index:1;
+}
 
-background-size:cover;
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    z-index:2;
+}
 
-background-position:center;
-
-position:relative;
-
-display:flex;
-
-align-items:center;
-
-padding-left:8%;
-
+.hero-content{
+    position:relative;
+    z-index:3;
 }
 
 .overlay{
